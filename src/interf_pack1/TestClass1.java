@@ -10,12 +10,12 @@ public class TestClass1 {
 		Animals an = new Human();
 		
 		// A reference pointing to the same class's Object
-			Human hum = new Human();
+		Human hum = new Human();
 			
 		// An interface static member must be accessed in a static way as with classes
 		 System.out.println(Animals.GENERAL_TYPE);
 		 
-		 //The interface reference can access a member of the class which object is being referred to only if that 
+		 //The interface reference can access a member of the class which object is being referred to, only if that 
 		 //that member is also contained in the interface.
 		  an.showType();
 		  
